@@ -1,0 +1,35 @@
+body {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.container {
+	display: flex;
+	margin-top: 10px;
+}
+
+.label {
+	width: 100px;
+}
+
+.slider {
+	width: 45%;
+	margin-left: 1px;
+}
+
+.text {
+	margin-left: 10px;
+}
+
+#colorRGB {
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 100px;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+}
+
+
+

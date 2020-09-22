@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<div  class="label">(R) Vermelho:</div>
+		<input type="range" min="0" max="255" value="1" class="slider" id="sliderRed">
+		<input type="text" name="textRed" class="text" id="textRed" value="" disabled>
+	</div>
+
+	<div class="container">
+		<div class="label">(G) Verde:</div>
+		<input type="range" min="0" max="255" value="1" class="slider" id="sliderGreen">
+		<input type="text" name="textGreen" class="text" id="textGreen" value="" disabled>
+	</div>
+
+	<div class="container">
+		<div class="label">(B) Azul:</div>
+		<input type="range" min="0" max="255" value="1" class="slider" id="sliderBlue">
+		<input type="text" name="textBlue" class="text" id="textBlue" value="" disabled>
+	</div>
+
+	<div id="colorRGB"></div>
+</body>
+<script src="script.js"></script>
+</html>
